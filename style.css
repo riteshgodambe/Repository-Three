@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif; /* Sets the default font for the entire body */
+  background-color: #f4f4f4;      /* Light gray background color */
+  margin: 0;                     /* Removes default browser margin */
+  padding: 20px;                 /* Adds space around the content */
+}
+
+h1 {
+  color: #333;                   /* Dark gray text color for headings */
+  text-align: center;            /* Centers the heading text */
+  border-bottom: 2px solid #333; /* A solid border at the bottom */
+  padding-bottom: 10px;          /* Space between text and border */
+}
+
+p {
+  color: #666;                   /* Medium gray text color for paragraphs */
+  font-size: 16px;               /* Sets the font size */
+  line-height: 1.5;              /* Increases space between lines for readability */
+}
+
+.container {
+  max-width: 800px;              /* Sets a maximum width for the container */
+  margin: 20px auto;             /* Centers the container horizontally on the page */
+  background-color: #fff;        /* White background for the content area */
+  padding: 20px;                 /* Inner space within the container */
+  border-radius: 5px;            /* Rounds the corners of the container */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+}
